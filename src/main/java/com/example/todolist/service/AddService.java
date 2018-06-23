@@ -10,7 +10,11 @@ import java.util.Optional;
 @Service
 public class AddService {
 
-    private List<TodoTask> tasks = new ArrayList<>();
+    static List<TodoTask> tasks = new ArrayList<>();
+
+    public static List<TodoTask> getTasks() {
+        return tasks;
+    }
 
 
     public List<TodoTask> search() { return tasks; }

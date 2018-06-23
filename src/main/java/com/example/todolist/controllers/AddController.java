@@ -15,11 +15,11 @@ public class AddController {
     @Autowired
     private AddService addService;
 
-    @GetMapping(path = "/get")
-    @ResponseStatus(HttpStatus.OK)
-    public List<TodoTask> getAll() {
-        return addService.search();
-    }
+//    @GetMapping(path = "/get")
+//    @ResponseStatus(HttpStatus.OK)
+//    public List<TodoTask> getAll() {
+//        return addService.search();
+//    }
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)

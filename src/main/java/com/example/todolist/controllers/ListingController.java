@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "/test", method = RequestMethod.POST)
 public class ListingController {
 
     @Autowired

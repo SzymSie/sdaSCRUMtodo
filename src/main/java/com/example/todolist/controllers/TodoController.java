@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/todo")
 public class TodoController {
    @RequestMapping (path = "/test", method = RequestMethod.GET)
-
-
-
     public ResponseEntity<TodoTask> test (){
         return ResponseEntity.ok(new TodoTask());
     }

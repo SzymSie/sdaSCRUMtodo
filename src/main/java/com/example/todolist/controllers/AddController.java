@@ -18,7 +18,7 @@ public class AddController {
         return addService.create(newBook);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping
     @ResponseStatus(HttpStatus.OK)
     public TodoTask put(@RequestBody TodoTask task, @PathVariable Integer id) {
         return addService.put(task, id);

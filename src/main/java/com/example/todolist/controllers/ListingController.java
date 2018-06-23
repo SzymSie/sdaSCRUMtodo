@@ -1,7 +1,7 @@
 package com.example.todolist.controllers;
 
 import com.example.todolist.model.TodoTask;
-import com.example.todolist.services.ListingService;
+import com.example.todolist.service.ListingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

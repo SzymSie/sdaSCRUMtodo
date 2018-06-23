@@ -13,6 +13,7 @@ import javax.persistence.Id;
 @Setter
 @NoArgsConstructor
 public class TodoTask {
+    public static int instanceNumber =0;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
 

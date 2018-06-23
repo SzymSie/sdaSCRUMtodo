@@ -12,6 +12,9 @@ public class AddService {
 
     private List<TodoTask> tasks = new ArrayList<>();
 
+
+    public List<TodoTask> search() { return tasks; }
+
     public TodoTask get(Integer id) {
         Optional<TodoTask> foundBook = tasks
                 .stream()
@@ -34,4 +37,5 @@ public class AddService {
         tasks.add(newTask);
         return newTask;
     }
+
 }

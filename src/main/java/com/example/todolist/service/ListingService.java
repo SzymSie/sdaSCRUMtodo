@@ -1,4 +1,4 @@
-package com.example.todolist.services;
+package com.example.todolist.service;
 
 import com.example.todolist.model.TodoTask;
 import com.sun.xml.internal.bind.v2.TODO;
